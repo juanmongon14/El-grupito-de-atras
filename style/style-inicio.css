@@ -8,7 +8,18 @@
     scroll-behavior: smooth;
 }
 
+.botones{
 
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+    
 
 
 
@@ -28,7 +39,6 @@ body {
 
 
 .header{
-    height: 100vh;
     background-image: linear-gradient(to top, rgba(161, 140, 209,0.5) 0%, rgba(251, 194, 235, 0.5) 100%),
      url(../img/imagenInicio.jpg);
      background-repeat: no-repeat;
@@ -259,6 +269,12 @@ color: #000000;
         width: 80%;
         margin-bottom: 40px;
     }
+
+   
+
+
+
+
 }
 
 @media screen and (max-width:500px){
