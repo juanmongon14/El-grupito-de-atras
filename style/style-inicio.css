@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.botones{
+
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+    
+
+
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+
+
+.header{
+    background-image: linear-gradient(to top, rgba(161, 140, 209,0.5) 0%, rgba(251, 194, 235, 0.5) 100%),
+     url(../img/imagenInicio.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+    text-align: center;
+}
+
+.head{
+    
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#000000;
+}
+
+
+
+
+.titulo{
+font-size: 60px;
+margin-bottom: 15px;
+}
+
+.copy{
+font-weight: 300;
+font-size: 25px;
+}
+
+/*Nuestro servicio */
+
+.subtitulo{
+text-align: center;
+font-weight: 300;
+color: #674188;
+margin-bottom: 40px;
+font-size: 40px;
+
+}
+
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 50%; 
+}
+
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 30px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #674188;
+}
+
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #674188 0%, #fbc2eb 100%);
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+
+.galley{
+    background: #f2f2f2;
+}
+
+
+.contenedor-galeria{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.img-galeria{
+    object-fit: contain;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    
+}
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.cont-expert img{
+width: 80%;
+display: block;
+margin: 0 auto;
+}
+
+
+.n-expert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 4000;
+}
+
+/*footer */
+
+footer{
+    background: #674188;
+    padding-bottom: 0.1px;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+a{
+    display: block;
+    width: 200px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    background-color: #674188;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+a:hover{
+background-color: transparent;
+border: 2px solid #fbc2eb;
+color: #000000;
+
+}
+
+.contact-us{
+    width: 40%;
+    color: white;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:800px){
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+ 
+    .img-galeria{
+        width: 45%;
+    }
+
+    .cont-expert{
+        width: 80%;
+    }
+
+    .footer-content{
+        justify-content: center;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+   
+
+
+
+
+}
+
+@media screen and (max-width:500px){
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+
+    .contact-us{
+        width: 90%;
+    }
+}
