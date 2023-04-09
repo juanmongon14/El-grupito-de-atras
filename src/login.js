@@ -11,6 +11,7 @@ function ingresar() {
     if (correo === correoAlmacenado && contrasena === contrasenaAlmacenada) {
       // Permitir que el usuario ingrese
       alert("Bienvenido/a " + correo + "!");
+      window.location.href = "saldo.html";
     } else {
       // Mostrar un mensaje de error si los valores no coinciden
       alert("El correo electrónico o la contraseña son incorrectos. Por favor, inténtalo de nuevo o registrate");
