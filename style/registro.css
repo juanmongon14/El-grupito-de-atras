@@ -1,0 +1,148 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap'); */
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffbf5;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-register {
+  max-width: 380px;
+  padding: 15px;
+  background-color: #f7efe5;
+  border-radius: 2%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #ffffff;
+}
+
+.nombre {
+  width: 92%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fffbf5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--bs-border-width) solid;
+  border-radius: 0.375rem;
+}
+
+.correo {
+  width: 92%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fffbf5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--bs-border-width) solid;
+  border-radius: 0.375rem;
+}
+
+.celular {
+  width: 92%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fffbf5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--bs-border-width) solid;
+  border-radius: 0.375rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* input[type="number"] {
+    -moz-appearance: textfield;
+} */
+
+.password {
+  width: 92%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fffbf5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--bs-border-width) solid;
+  border-radius: 0.375rem;
+}
+
+.confPassword {
+  width: 92%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fffbf5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--bs-border-width) solid;
+  border-radius: 0.375rem;
+}
+
+.boton {
+  width: 92%;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #c3acd0;
+  padding: 8px;
+  border-style: none;
+  border-radius: 6px;
+}
+
+.boton:hover {
+  background-color: #674188;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.check {
+  margin: 15px 0px 5px 0px;
+  height: 13px;
+  width: 13px;
+}
+
+.copyright {
+  color: #212529bf;
+  font-size: 16px;
+  margin: 30px 0px 10px;
+}
+
+/* .ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+} */
