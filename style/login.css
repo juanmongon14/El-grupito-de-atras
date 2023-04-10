@@ -5,12 +5,30 @@ body {
 
 }
 
+.iniciar{
+  font-size: 40px;
+}
+
 body {
   display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #FFFBF5;
+}
+
+.imglogo{
+  background-image: url("../assets/img/logopequño.jpg");
+  width:200px;
+  height:80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  border-radius: 3%;
+  opacity: 50%;
+  margin-left: 20%;
+ 
+
 }
 
 .form-signin {
@@ -67,6 +85,21 @@ body {
       background-color: #F7EFE5;
       border: 1px solid #F7EFE5;
       margin-top: -100px;
+    }
+
+    
+  
+    .imglogo{
+      background-image: url(../assets/img/Icono_redime_colombia-removebg-preview.png);
+      
+      width:110px;
+  height:90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 3%;
+  opacity: 80%;
+  margin-left: 0%;
     }
   }
   
