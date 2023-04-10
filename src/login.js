@@ -13,7 +13,7 @@ function ingresar() {
       
 
       alert("Bienvenido/a " + correo + "!");
-      window.location.href = "../saldo.html";
+      location.href = "../pages/saldo.html";
 
       
     } else {
@@ -23,7 +23,10 @@ function ingresar() {
   }
 
   function redireccionar() {
-    window.location.href = "../saldo2.html";
+    
+    location.href = "../pages/saldo.html";
+    
+    alert("Envio");
   }
   
   

@@ -1,7 +1,6 @@
 function RevisarPass(){
     let password = document.getElementById("password").value;
     let confPassword = document.getElementById("confPassword").value;
-    let tyc = TyC();
     if (password === "" || password !== confPassword){
         
         alert("Las contraseñas no coinciden, Por favor revisa el dato ingresado o debes aceptar los terminos");
@@ -12,25 +11,11 @@ function RevisarPass(){
         
         guardarInformacion();
         alert("Registro exitoso");
-        location.href = "../saldo2.html";
+        window.location.href = "../pages/saldo2.html";
         
     }
 }
 
-function TyC() {
-var button = document.querySelector("#boton");
-button.addEventListener('submit', function CheckTyC(){
-    var checkbox = document.querySelector("#checkbox");
-    if (!checkbox.checked) {
-        alert("Por favor acepte los Términos y Condiciones del servicio.");
-        this.preventDefault();
-        return false;
-    }
-    else{
-        return true;
-    }
-})
-}
 
 function guardarInformacion(){
     var nombre = document.getElementById("nombre").value;
@@ -46,4 +31,3 @@ function guardarInformacion(){
 }
 
 const Boton = document.getElementById("boton");
-//Boton.onsubmit = RevisarPass();
